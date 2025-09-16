@@ -1,5 +1,43 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #001c7d;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text-block {
+  margin-left: 250px;
+}
+
+.header-text {
+  color: #fff;
+  margin: 0 0 21px 0;
+  text-align: center;
+}
+
+.highlight {
+  color: #f8c51e;
+}
+
+.student-info {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.header-photo img {
+  width: 150px;
+  height: auto;
+  margin-right: 150px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
