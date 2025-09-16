@@ -3,3 +3,6 @@ node_modules
 
 style.scss
 style.css.map
+
+package.json
+package-lock.json
