@@ -63,4 +63,14 @@ body {
   color: #001c7d;
 }
 
+.work-content {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.work-content.active {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
