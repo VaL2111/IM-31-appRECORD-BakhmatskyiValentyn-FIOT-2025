@@ -40,15 +40,15 @@ body {
   border-radius: 10px;
 }
 
-.works {
+.main-works {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
-.work-btn {
+.btn {
   background: #001c7d;
   color: white;
   padding: 20px 20px;
@@ -58,18 +58,54 @@ body {
   transition: 0.3s;
 }
 
-.work-btn:hover {
+.btn:hover {
   background: #f8c51e;
   color: #001c7d;
 }
 
 .work-content {
   display: none;
-  margin-top: 20px;
-  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 40px 20px;
 }
 
 .work-content.active {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.second-works {
+  flex: 1;
+}
+
+.work-content {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.work-content.active {
+  display: flex;
+}
+
+.answers {
+  flex: 2;
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+}
+
+.answer-box {
+  display: none;
+}
+
+.answer-box.active {
   display: block;
 }
 
