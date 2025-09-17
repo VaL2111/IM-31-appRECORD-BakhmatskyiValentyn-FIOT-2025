@@ -40,4 +40,27 @@ body {
   border-radius: 10px;
 }
 
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.work-btn {
+  background: #001c7d;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.work-btn:hover {
+  background: #f8c51e;
+  color: #001c7d;
+}
+
 /*# sourceMappingURL=style.css.map */
