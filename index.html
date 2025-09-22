@@ -28,6 +28,7 @@
             </div>
         </div>
     </header>
+
     <main>
         <section class="main-works">
             <button class="btn main-btn" data-target="work1">Практична робота №1</button>
@@ -46,11 +47,12 @@
                 <div id="work1" class="work-content">
                     <button class="btn second-btn" data-content="content1">Тема, Мета, Місце розташування сайту, звіту</button>
                     <button class="btn second-btn" data-content="content2">Опис предметного середовища. Опис бізнес-логіки</button>
-                    <button class="btn second-btn" data-content="content3">Структура документа</button>
+                    <button class="btn second-btn" data-content="content3">Структура документа. HTML-код головної сторінки</button>
                     <button class="btn second-btn" data-content="content4">HTML-код ТАБЛИЦІ</button>
                     <button class="btn second-btn" data-content="content5">HTML-код ЗОБРАЖЕННЯ</button>
                     <button class="btn second-btn" data-content="content6">HTML-код ФОРМИ</button>
-                    <button class="btn second-btn" data-content="content7">HTML-код</button>
+                    <button class="btn second-btn" data-content="content7">HTML-код СПИСКІВ</button>
+                    <button class="btn second-btn" data-content="content8">Висновки</button>
                 </div>
 
                 <div id="work2" class="work-content"></div>
@@ -65,22 +67,727 @@
 
             <div class="answers">
                 <div id="content1" class="answer-box">
-                    <h3>Тема</h3>
-                    <p>Тема роботи: Приклад...</p>
-                    <h3>Мета</h3>
-                    <p>Мета: Ознайомитися з основами HTML та CSS...</p>
-                    <h3>Місце розташування сайту</h3>
-                    <p><a href="#">Посилання на сайт</a></p>
-                    <h3>Місце розташування звіту</h3>
-                    <p><a href="#">Посилання на звіт</a></p>
+                    <p>
+                        <strong>Тема: </strong>
+                        ТЕГИ ТА АТРИБУТИ HTML-ДОКУМЕНТА. СТРУКТУРНА РОЗМІТКА. GIT.GITHUB.
+                        РОБОТА З РЕПОЗИТОРІЯМИ. ОПИС ЛОГІКИ ВЛАСНОГО WEB-ЗАСТОСУНКУ.
+                    </p>
+                    <p>
+                        <strong>Мета: </strong>
+                        придбати практичні навички роботи з GitHub, репозиторіями, HTML-документом, таблицями, зображеннями, посиланнями, списками, формами.
+                        Створити шаблон звітного HTML-документа для відображення результатів роботи всіх лабораторних робіт.
+                    </p>
+                    <section class="links">
+                        <h3>Посилання на завдання:</h3>
+                        <a href="https://github.com/VaL2111/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025">
+                            Репозиторій власного вебзастосунка
+                        </a>
+                        <a href="https://val2111.github.io/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025/">
+                            Жива сторінка власного вебзастосунка
+                        </a>
+                        <a href="https://github.com/VaL2111/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025">
+                            Репозиторій звітного HTML-документа
+                        </a>
+                        <a href="https://val2111.github.io/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025/">
+                            Жива сторінка звітного HTML-документа
+                        </a>
+                        <a href="https://github.com/VaL2111/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025">
+                            Репозиторій із самостійними роботами
+                        </a>
+                        <a href="https://val2111.github.io/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025/">
+                            Жива сторінка із самостійними роботами
+                        </a>
+                    </section>
                 </div>
+                <div id="content2" class="answer-box">
+                    <p>
+                        <strong>Предметне середовище: </strong>
+                        онлайн-магазин одягу, який дозволяє клієнтам переглядати,
+                        обирати та купувати товари через вебінтерфейс.
+                    </p>
+                    <section>
+                        <p><strong>Бізнес-логіка (сценарії використання):</strong></p>
+                        <p><strong>Сценарій №1: </strong> Перегляд каталогу товарів:</p>
+                        <ol>
+                            <li>Користувач відкриває сторінку “Магазин”.</li>
+                            <li>Система відображає список товарів.</li>
+                            <li>Користувач обирає відповідний товар</li>
+                        </ol>
+                        <p><strong>Сценарій №2: </strong> Перегляд та покупка товару:</p>
+                        <ol>
+                            <li>Користувач відкриває сторінку товару, натискаючи на нього.</li>
+                            <li>Система показує фото, опис, ціну, різні стилі та розміри товару.</li>
+                            <li>Користувач вибирає розмір та стиль товару.</li>
+                            <li>Користувач додає товар у кошик.</li>
+                            <li>Користувач переходить до кошика та оформляє замовлення</li>
+                        </ol>
+                        <p><strong>Сценарій №3: </strong> Використання кошика:</p>
+                        <ol>
+                            <li>Користувач відкриває кошик.</li>
+                            <li>Система відображає список доданих товарів та підсумкову суму.</li>
+                            <li>Користувач може змінити кількість товарів або видалити їх.</li>
+                            <li>Користувач може ввести купон на знижку.</li>
+                            <li>Користувач переходить до оформлення замовлення.</li>
+                        </ol>
+                        <p><strong>Сценарій №4: </strong> Ознайомлення з інформацією:</p>
+                        <ol>
+                            <li>Користувач відкриває сторінку “Про нас”.</li>
+                            <li>Система відображає інформацію про компанію</li>
+                            <li>Користувач може перейти на сторінку “Контакти”.</li>
+                            <li>Система показує карту та контактні дані.</li>
+                        </ol>
+                    </section>
+                </div>
+                <div id="content3" class="answer-box">
+                    <xmp>
+                            <!doctype html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport"
+                                      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                                <link rel="stylesheet" href="style.css">
+                                <title>Йосип Store</title>
+                            </head>
+                            <body>
+                                <header>
+                                    <a class="logo" href="#">Йосип</a>
 
-                <div id="content2" class="answer-box">Hello</div>
-                <div id="content3" class="answer-box">My</div>
-                <div id="content4" class="answer-box">Name</div>
-                <div id="content5" class="answer-box">is</div>
-                <div id="content6" class="answer-box">Valentyn</div>
-                <div id="content7" class="answer-box">Bakhmatskyi</div>
+                                    <div>
+                                        <ul id="navbar">
+                                            <li><a class="active" href="index.html">Дім</a></li>
+                                            <li><a href="shop.html">Магазин</a></li>
+                                            <li><a href="blog.html">Блог</a></li>
+                                            <li><a href="about.html">Про нас</a></li>
+                                            <li><a href="contact.html">Контакти</a></li>
+                                            <li><a href="cart.html"><img class="cart" src="./img/shopping-bag.png" alt="Кошик"></a></li>
+                                        </ul>
+                                    </div>
+                                </header>
+
+                                <main>
+                                    <section id="hero">
+                                        <h2>Вигідні пропозиції</h2>
+                                        <h1>На всі товари</h1>
+                                        <p>Заощадьте більше з купонами та знижками до 70%</p>
+                                        <button>Магазин</button>
+                                    </section>
+
+                                    <section id="features" class="section-p1">
+                                        <div class="fe-box">
+                                            <img src="./img/features/f1.png" alt="Безкоштовна доставка">
+                                            <h6>Безкоштовна доставка</h6>
+                                        </div>
+                                        <div class="fe-box">
+                                            <img src="./img/features/f2.png" alt="Онлайн замовлення">
+                                            <h6>Онлайн замовлення</h6>
+                                        </div>
+                                        <div class="fe-box">
+                                            <img src="./img/features/f3.png" alt="Заощаджуйте гроші">
+                                            <h6>Заощаджуйте гроші</h6>
+                                        </div>
+                                        <div class="fe-box">
+                                            <img src="./img/features/f4.png" alt="Акції">
+                                            <h6>Акції</h6>
+                                        </div>
+                                        <div class="fe-box">
+                                            <img src="./img/features/f5.png" alt="Гарний вибір">
+                                            <h6>Гарний вибір</h6>
+                                        </div>
+                                        <div class="fe-box">
+                                            <img src="./img/features/f6.png" alt="Підтримка 24/7">
+                                            <h6>Підтримка 24/7</h6>
+                                        </div>
+                                    </section>
+
+                                    <section class="products section-p1">
+                                        <h2>Рекомендовані товари</h2>
+                                        <p>Літня колекція | Новий сучасний дизайн</p>
+                                        <div class="pro-container">
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f1.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f2.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f3.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f4.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f5.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f6.jpg" alt="Футболка “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>2062,53 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f7.jpg" alt="Штани штапель EY-273A300">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Штани штапель EY-273A300</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>2103,78 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/f8.jpg" alt="Сорочка жіноча з принтами ">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка жіноча з принтами </h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1567,52 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="banner" class="section-m1">
+                                        <h2>Знижки до <span>70%</span> на всі Футболки та Аксесуари</h2>
+                                        <button class="normal">Дізнатися більше</button>
+                                    </section>
+
+                                    <section class="products section-p1">
+                                        <h2>Новинки</h2>
+                                        <p>Літня колекція | Новий сучасний дизайн</p>
+                                        <div class="pro-container">
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n1.jpg" alt="Сорочка  “Cartoon Astronaut”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка  “Cartoon Astronaut”</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n2.jpg" alt="Сорочка Staff ed dark gray2">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка Staff ed dark gray2</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n3.jpg" alt="Сорочка Staff reb white”">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка Staff reb white</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n4.jpg" alt="Футболка Essentials Elevated">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Футболка Essentials Elevated</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n5.jpg" alt="Сорочка Staff al blue">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка Staff al blue</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n6.jpg" alt="Шорти Staff cargo sen light gray">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Шорти Staff cargo sen light gray</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>2103,78 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n7.jpg" alt="Сорочка Staff ind beige">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка Staff ind beige</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>2062,53 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                            <div class="pro">
+                                                <img class="product-img" src="./img/products/n8.jpg" alt="Сорочка Staff mai black oversize">
+                                                <div class="des">
+                                                    <span>adidas</span>
+                                                    <h5>Сорочка Staff mai black oversize</h5>
+                                                    <div class="stars">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                                    </div>
+                                                    <h4>1980,02 грн</h4>
+                                                </div>
+                                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="banners" class="section-p1">
+                                        <div class="banner-box">
+                                            <h2>Найкращі класичні сукні</h2>
+                                            <span>Купи дві — третя безкоштовно</span>
+                                            <button class="white">Дізнатися більше</button>
+                                        </div>
+                                        <div class="banner-box banner3">
+                                            <h2>Нова колекція футболок</h2>
+                                            <span>Літо закінчується так само швидко, як і дитинство</span>
+                                            <button class="white">Колекція</button>
+                                        </div>
+                                    </section>
+
+                                    <section id="banner4">
+                                        <div class="banner-box">
+                                            <h2>Нова колекція взуття</h2>
+                                            <h3>Осінь/зима 2025</h3>
+                                        </div>
+                                        <div class="banner-box banner5">
+                                            <h2>Сезонний розпродаж</h2>
+                                            <h3>Зимова колекція -50%</h3>
+                                        </div>
+                                    </section>
+                                </main>
+
+                                <footer class="section-p1">
+                                    <div class="column">
+                                        <a class="logo" href="#">Йосип</a>
+                                        <h4>Контакти</h4>
+                                        <p><strong>Адреса:</strong> м. Київ, вул. Політехнічна, 41</p>
+                                        <p><strong>Номер телефону:</strong> 044 236 7989</p>
+                                        <p><strong>Години роботи:</strong> 8:00 - 17:00. Пн — Пт</p>
+                                    </div>
+
+                                    <div class="column">
+                                        <h4>Про нас</h4>
+                                        <a href="#">Інформація про доставку</a>
+                                        <a href="#">Політика конфіденційності</a>
+                                        <a href="#">Правила та умови</a>
+                                        <a href="#">Зв'язатися з нами</a>
+                                    </div>
+
+                                    <div class="column">
+                                        <h4>Мій обліковий запис</h4>
+                                        <a href="#">Увійти</a>
+                                        <a href="#">Переглянути кошик</a>
+                                        <a href="#">Відстежити моє замовлення</a>
+                                        <a href="#">Довідка</a>
+                                    </div>
+
+                                    <div class="column install">
+                                        <h4>Встановити застосунок</h4>
+                                        <p>З App Store або Google Play</p>
+                                        <div class="row">
+                                            <img src="./img/app_store.jpg" alt="">
+                                            <img src="./img/google_pay.jpg" alt="">
+                                        </div>
+                                        <p>Захищені платежі</p>
+                                        <img src="./img/pay.png" alt="">
+                                    </div>
+
+                                    <div class="copyright">
+                                        <p>© 2025 Йосип Store. Всі права захищено.</p>
+                                    </div>
+                                </footer>
+
+                                <script src="index.js"></script>;
+                            </body>
+                            </html>
+                        </xmp>
+                </div>
+                <div id="content4" class="answer-box">
+                    <xmp>
+                        <section class="table">
+                            <table>
+                                <caption>Доступний товар</caption>
+                                <thead>
+                                <tr>
+                                    <th scope="col">№</th>
+                                    <th scope="col">Бренд</th>
+                                    <th scope="col">Назва</th>
+                                    <th scope="col">Відгуки</th>
+                                    <th scope="col">Ціна|грн</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка “Cartoon Astronaut”</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка Staff ed dark gray2</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка Staff reb white</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <th>adidas</th>
+                                    <th>Футболка Essentials Elevated</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка Staff al blue</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <th>adidas</th>
+                                    <th>Шорти Staff cargo sen light gray</th>
+                                    <th>5/5</th>
+                                    <th>2103,78</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка Staff ind beige</th>
+                                    <th>5/5</th>
+                                    <th>2062,53</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <th>adidas</th>
+                                    <th>Сорочка Staff mai black oversize</th>
+                                    <th>5/5</th>
+                                    <th>1980,02</th>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </xmp>
+                    <p>Скріншот таблиці:</p>
+                    <img src="./img/table.png" alt="">
+                    <section>
+                        <strong>
+                            Теорія про теги та атрибути, які я використовував при створенні таблиці:
+                        </strong>
+                        <p>Теги:</p>
+                        <ul>
+                            <li>&lt;table&gt; — контейнер таблиці.</li>
+                            <li>&lt;caption&gt; — заголовок таблиці (відображається зверху).</li>
+                            <li>&lt;thead&gt; — секція із заголовком (шапкою) таблиці.</li>
+                            <li>&lt;tbody&gt; — основна частина таблиці (рядки з даними).</li>
+                            <li>&lt;tr&gt; (table row) — рядок таблиці.</li>
+                            <li>&lt;th&gt; (table header) — комірка-заголовок (текст автоматично виділяється жирним</li>
+                        </ul>
+                        <p>Атрибути:</p>
+                        <ul>
+                            <li>scope (для &lt;th&gt;) — вказує, на що поширюється заголовок (col або row).</li>
+                        </ul>
+                    </section>
+                </div>
+                <div id="content5" class="answer-box">
+                    <xmp>
+                        <section id="features" class="section-p1">
+                            <div class="fe-box">
+                                <img src="./img/features/f1.png" alt="Безкоштовна доставка">
+                                <h6>Безкоштовна доставка</h6>
+                            </div>
+                            <div class="fe-box">
+                                <img src="./img/features/f2.png" alt="Онлайн замовлення">
+                                <h6>Онлайн замовлення</h6>
+                            </div>
+                            <div class="fe-box">
+                                <img src="./img/features/f3.png" alt="Заощаджуйте гроші">
+                                <h6>Заощаджуйте гроші</h6>
+                            </div>
+                            <div class="fe-box">
+                                <img src="./img/features/f4.png" alt="Акції">
+                                <h6>Акції</h6>
+                            </div>
+                            <div class="fe-box">
+                                <img src="./img/features/f5.png" alt="Гарний вибір">
+                                <h6>Гарний вибір</h6>
+                            </div>
+                            <div class="fe-box">
+                                <img src="./img/features/f6.png" alt="Підтримка 24/7">
+                                <h6>Підтримка 24/7</h6>
+                            </div>
+                        </section>
+                    </xmp>
+                    <p>Скріншот зображень:</p>
+                    <img src="./img/features.png" alt="">
+                    <strong>Теорія про атрибути тегу:</strong>
+                    <ul>
+                        <li>"src" (source) – шлях до зображення.</li>
+                        <li>"alt" (alternative text) –
+                            альтернативний текст, що показується, якщо зображення не завантажилось.</li>
+                        <li>"width / height" – задають розміри зображення.</li>
+                        <li>"title" – підказка при наведенні курсора.</li>
+                    </ul>
+                </div>
+                <div id="content6" class="answer-box">
+                    <xmp>
+                        <section class="form">
+                            <h2>Форма</h2>
+
+                            <form action="#" method="post" enctype="multipart/form-data" novalidate>
+                                <div>
+                                    <label for="name">Ім'я</label>
+                                    <input id="name" name="name" type="text" placeholder="Ваше ім'я" required>
+                                </div>
+
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input id="email" name="email" type="email" placeholder="name@example.com" required>
+                                </div>
+
+                                <div>
+                                    <label for="service">Послуга</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">-- виберіть --</option>
+                                        <option value="free_shipping">Безкоштовна доставка</option>
+                                        <option value="online_ordering">Онлайн замовлення</option>
+                                        <option value="save_money">Заощаджуйте гроші</option>
+                                        <option value="special_offers">Акції</option>
+                                        <option value="great_selection">Гарний вибір</option>
+                                        <option value="support">Підтримка 24/7</option>
+                                    </select>
+                                </div>
+
+                                <div class="row">
+                                    <label for="message">Коментар</label>
+                                    <textarea id="message" placeholder="Ваше повідомлення..."></textarea>
+                                </div>
+
+                                <div class="row">
+                                    <label></label>
+                                    <button type="submit">Відправити</button>
+                                </div>
+                            </form>
+                        </section>
+                    </xmp>
+                    <p>Скріншот форми:</p>
+                    <img src="./img/form.png" alt="" width="244" height="190">
+                </div>
+                <div id="content7" class="answer-box">
+                    <xmp>
+                        <section class="lists">
+                            <h2>Списки</h2>
+                            <ul>
+                                <li>Сорочка “Cartoon Astronaut”</li>
+                                <li>Сорочка Staff ed dark gray2</li>
+                                <li>Сорочка Staff reb white</li>
+                                <li>Футболка Essentials Elevated</li>
+                            </ul>
+                            <ol>
+                                <li>Сорочка Staff al blue</li>
+                                <li>Шорти Staff cargo sen light gray</li>
+                                <li>Сорочка Staff ind beige</li>
+                                <li>Сорочка Staff mai black oversize</li>
+                            </ol>
+                        </section>
+                    </xmp>
+                    <p>Скріншот списків:</p>
+                    <img src="./img/lists.png" alt="">
+                    <p></p>
+                    <strong>Теорія про теги та атрибути, які застосовуються при створенні списків:</strong>
+                    <p>Ненумерований список:</p>
+                    <ul>
+                        <li>Тег &lt;ul&gt; (unordered list) – маркований список.</li>
+                        <li>Елементи списку – &lt;li&gt; (list item).</li>
+                    </ul>
+                    <p>Нумерований список:</p>
+                    <ul>
+                        <li>Тег &lt;ol&gt; (ordered list) – пронумерований список.</li>
+                        <li>Елементи списку – &lt;li&gt; (list item).</li>
+                    </ul>
+                    <p>Основні атрибути: </p>
+                    <ul>
+                        <li>"type" – стиль нумерації (1, A, a, I, i).</li>
+                        <li>"start" – з якого номера починати.</li>
+                        <li>"reversed" – зворотна нумерація.</li>
+                        <li>"value" (для &lt;li&gt;) - для конкретного номера.</li>
+                    </ul>
+                </div>
+                <div id="content8" class="answer-box">
+                    <strong>Висновки:</strong>
+                    <p>
+                        У процесі виконання практичної роботи я ознайомився з основами створення HTML-документів,
+                        структурною розміткою сторінок та використанням основних тегів і атрибутів.
+                        Було розглянуто теги для створення заголовків, таблиць, списків, форм, зображень і
+                        посилань, а також їх практичне застосування.
+                    </p>
+                    <p>
+                        У ході роботи я створив шаблон звітного HTML-документа, де відобразив усі необхідні
+                        елементи: таблиці, списки, зображення, посилання та опис предметної галузі.
+                    </p>
+                    <p>
+                        Окремо було опрацьовано роботу з Git і GitHub, включаючи створення репозиторіїв
+                        та налаштування живих сторінок.
+                    </p>
+                    <p>
+                        Також я ознайомився з інструментом Figma, виконав базові навчальні уроки та
+                        створив макет власного вебзастосунка.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
