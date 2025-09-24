@@ -98,7 +98,7 @@ body {
 .answers {
   flex: 2;
   border-left: 2px solid #ccc;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .answer-box {
