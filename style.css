@@ -109,25 +109,25 @@ body {
   display: block;
 }
 
-#content1 .links {
+#content_1-1 .links {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#content1 .links a {
+#content_1-1 .links a {
   transition: 0.3s;
 }
 
-#content1 .links a:hover {
+#content_1-1 .links a:hover {
   color: #f8c51e;
 }
 
-#content4 img {
+#content_1-4 img {
   width: 100%;
 }
 
-#content5 img {
+#content_1-5 img {
   width: 100%;
 }
 
