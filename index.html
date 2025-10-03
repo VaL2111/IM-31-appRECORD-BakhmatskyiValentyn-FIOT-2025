@@ -65,7 +65,7 @@
                     <button class="btn second-btn" data-content="content_2-1">
                         Тема, мета ПР №2. Місце розташування сайту, звіту
                     </button>
-                    <button class="btn second-btn" data-content="content_2-1">
+                    <button class="btn second-btn" data-content="content_2-2">
                         Способи підключення стилів
                     </button>
                     <button class="btn second-btn" data-content="content_2-3">
@@ -113,22 +113,22 @@
                         </p>
                         <section class="links">
                             <h3>Посилання на завдання:</h3>
-                            <a href="https://github.com/VaL2111/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025">
+                            <a href="https://github.com/VaL2111/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025" target="_blank">
                                 Репозиторій власного вебзастосунка
                             </a>
-                            <a href="https://val2111.github.io/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025/">
+                            <a href="https://val2111.github.io/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
                                 Жива сторінка власного вебзастосунка
                             </a>
-                            <a href="https://github.com/VaL2111/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025">
+                            <a href="https://github.com/VaL2111/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025" target="_blank">
                                 Репозиторій звітного HTML-документа
                             </a>
-                            <a href="https://val2111.github.io/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025/">
+                            <a href="https://val2111.github.io/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
                                 Жива сторінка звітного HTML-документа
                             </a>
-                            <a href="https://github.com/VaL2111/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025">
+                            <a href="https://github.com/VaL2111/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025" target="_blank">
                                 Репозиторій із самостійними роботами
                             </a>
-                            <a href="https://val2111.github.io/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025/">
+                            <a href="https://val2111.github.io/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
                                 Жива сторінка із самостійними роботами
                             </a>
                         </section>
@@ -880,31 +880,990 @@
 
                 <section>
                     <div id="content_2-1" class="answer-box">
-
+                        <p>
+                            <strong>Тема: </strong>
+                            КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ.
+                            СТИЛЬОВЕ ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.
+                        </p>
+                        <p>
+                            <strong>Мета: </strong>
+                            придбати практичні навички роботи  з селекторами, ідентифікаторами,
+                            списками,  різноманітними властивостями кольору і фону,  зовнішними
+                            та внутрішними  відступами,  плаваючими елементами, оформленням
+                            текстових елементів.
+                        </p>
+                        <section class="links">
+                            <h3>Посилання на завдання:</h3>
+                            <a href="https://github.com/VaL2111/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025" target="_blank">
+                                Репозиторій власного вебзастосунка
+                            </a>
+                            <a href="https://val2111.github.io/IM-31_appWEB-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
+                                Жива сторінка власного вебзастосунка
+                            </a>
+                            <a href="https://github.com/VaL2111/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025" target="_blank">
+                                Репозиторій звітного HTML-документа
+                            </a>
+                            <a href="https://val2111.github.io/IM-31-appRECORD-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
+                                Жива сторінка звітного HTML-документа
+                            </a>
+                            <a href="https://github.com/VaL2111/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025" target="_blank">
+                                Репозиторій із самостійними роботами
+                            </a>
+                            <a href="https://val2111.github.io/IM-31-appINDEPENDENT-BakhmatskyiValentyn-FIOT-2025/" target="_blank">
+                                Жива сторінка із самостійними роботами
+                            </a>
+                        </section>
                     </div>
                     <div id="content_2-2" class="answer-box">
+                        <h3>Зовнішня таблиця стилів</h3>
+                        <p>
+                            CSS зберігається в окремому файлі з розширенням .css і
+                            підключається через тег <strong>&lt;link&gt;</strong>
+                            в <strong>&lt;head&gt;</strong>.
+                        </p>
+                        <xmp>
+                            <!DOCTYPE html>
+                            <html lang="uk">
+                            <head>
+                                <meta charset="UTF-8">
+                                <title>Мій сайт</title>
+                                <link rel="stylesheet" href="styles.css">
+                                <link rel="stylesheet" href="responsive.css">
+                            </head>
+                            <body>
+                            <h1>Привіт, світ!</h1>
+                            </body>
+                            </html>
+                        </xmp>
+                        <h3>Внутрішні стилі (Вбудовані в HTML)</h3>
+                        <p>
+                            CSS пишеться всередині тега <strong>&lt;style&gt;</strong>
+                            в розділі <strong>&lt;head&gt;</strong>.
+                        </p>
+                        <xmp>
+                            <!DOCTYPE html>
+                            <html lang="uk">
+                            <head>
+                                <meta charset="UTF-8">
+                                <title>Мій сайт</title>
+                                <style>
+                                    h1 {
+                                        color: red;
+                                        font-size: 24px;
+                                    }
 
+                                    p {
+                                        line-height: 1.6;
+                                        margin: 10px 0;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+                            <h1>Заголовок</h1>
+                            <p>Абзац тексту</p>
+                            </body>
+                            </html>
+                        </xmp>
+                        <h3>Вбудовані стилі (Inline Styles)</h3>
+                        <p>
+                            CSS пишеться безпосередньо в атрибуті <strong>style</strong> HTML-тега.
+                        </p>
+                        <xmp>
+                            <!DOCTYPE html>
+                            <html lang="uk">
+                            <body>
+                            <h1 style="color: green; text-align: center; font-size: 32px;">
+                                Зелений заголовок
+                            </h1>
+
+                            <p style="background-color: yellow; padding: 15px;">
+                                Абзац з жовтим фоном
+                            </p>
+
+                            <div style="border: 2px solid black; margin: 20px;">
+                                Блок з рамкою
+                            </div>
+                            </body>
+                            </html>
+                        </xmp>
+                        <h3>Імпорт CSS через @import</h3>
+                        <p>
+                            Спосіб імпортувати один CSS файл в інший.
+                        </p>
+                        <p><strong>У зовнішньому CSS файлі:</strong></p>
+                        <xmp>
+                            /* styles.css */
+                            @import url('reset.css');
+                            @import url('fonts.css');
+
+                            h1 {
+                            color: blue;
+                            }
+                        </xmp>
+                        <p><strong>Або в тегу &lt;style&gt;:</strong></p>
+                        <xmp>
+                            <style>
+                                @import url('styles.css');
+                                @import url('theme.css');
+
+                                body {
+                                    margin: 0;
+                                }
+                            </style>
+                        </xmp>
                     </div>
                     <div id="content_2-3" class="answer-box">
+                        <xmp>
+                            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+                            $text-color: #222;
+                            $text-highlight-color: #088178;
+
+                            * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: 'Open Sans', sans-serif;
+                            }
+
+                            body {
+                            width: 100%;
+                            }
+
+                            header {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 20px 80px;
+                            background: #e3e6f3;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                            z-index: 999;
+                            position: sticky;
+                            top: 0;
+                            left: 0;
+                            }
+
+                            #navbar {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            }
+
+                            .logo {
+                            text-decoration: none;
+                            font-size: 36px;
+                            font-weight: 700;
+                            color: $text-color;
+                            text-shadow:
+                            0 0 5px $text-highlight-color,
+                            0 0 10px $text-highlight-color,
+                            2px 2px 5px rgba(0,0,0,0.8);
+                            }
+
+                            #navbar li {
+                            list-style: none;
+                            padding: 0 20px;
+                            position: relative;
+                            }
+
+                            #navbar li a {
+                            text-decoration: none;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #1a1a1a;
+                            transition: 0.3s ease;
+                            }
+
+                            #navbar li a:hover,
+                            #navbar li a.active {
+                            color: $text-highlight-color;
+                            }
+
+                            #navbar li a.active::after,
+                            #navbar li:not(:last-child) a:hover::after {
+                            content: "";
+                            width: 30%;
+                            height: 2px;
+                            background: $text-highlight-color;
+                            position: absolute;
+                            left: 20px;
+                            bottom: -4px;
+                            }
+
+                            #navbar li a img {
+                            width: 35px;
+                            height: 35px;
+                            }
+
+                            h1 {
+                            font-size: 50px;
+                            line-height: 64px;
+                            color: $text-color;
+                            }
+
+                            h2 {
+                            font-size: 46px;
+                            line-height: 54px;
+                            color: $text-color;
+                            }
+
+                            p {
+                            font-size: 16px;
+                            color: $text-color;
+                            margin: 15px 0 20px 0;
+                            }
+
+                            #hero {
+                            background-image: url('img/hero.jpg');
+                            width: 100%;
+                            height: 90vh;
+                            background-size: cover;
+                            background-position: top 0 right 0;
+                            padding: 0 80px;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: center;
+                            flex-direction: column;
+                            }
+
+                            #hero h1 {
+                            color: $text-highlight-color;
+                            }
+
+                            #hero button {
+                            background-image: url('img/button.png');
+                            background-color: transparent;
+                            color: $text-highlight-color;
+                            border: 0;
+                            padding: 14px 80px 14px 65px;
+                            background-repeat: no-repeat;
+                            cursor: pointer;
+                            font-weight: 700;
+                            font-size: 15px;
+                            margin-left: 60px;
+                            }
+
+                            h6 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            }
+
+                            .section-p1 {
+                            padding: 40px 80px;
+                            }
+
+                            #features {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            }
+
+                            #features .fe-box {
+                            width: 180px;
+                            text-align: center;
+                            padding: 25px 15px;
+                            box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+                            transition: box-shadow 0.3s;
+                            border: 1px solid #cce7d0;
+                            border-radius: 4px;
+                            margin: 15px 0;
+                            }
+
+                            #features .fe-box:hover {
+                            box-shadow: 10px 10px 54px rgba(70,62,221,0.25);
+                            }
+
+                            #features .fe-box img {
+                            width: 100%;
+                            margin-bottom: 10px;
+                            }
+
+                            #features .fe-box h6 {
+                            padding: 9px 8px 6px 8px;
+                            line-height: 1;
+                            border-radius: 4px;
+                            color: $text-highlight-color;
+                            background-color: #fddde4;
+                            }
+
+                            #features .fe-box:nth-child(2) h6 {
+                            background-color: #cdebbc;
+                            }
+
+                            #features .fe-box:nth-child(3) h6 {
+                            background-color: #d1e8f2;
+                            }
+
+                            #features .fe-box:nth-child(4) h6 {
+                            background-color: #cdd4f8;
+                            }
+
+                            #features .fe-box:nth-child(5) h6 {
+                            background-color: #f6dbf6;
+                            }
+
+                            #features .fe-box:nth-child(6) h6 {
+                            background-color: #fff2e5;
+                            }
+
+                            .products {
+                            text-align: center;
+                            }
+
+                            .products .pro-container {
+                            display: flex;
+                            justify-content: space-between;
+                            padding-top: 20px;
+                            flex-wrap: wrap;
+                            }
+
+                            .products .pro {
+                            width: 23%;
+                            min-width: 250px;
+                            padding: 10px 12px;
+                            border: 1px solid #cce7d0;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+                            margin: 15px 0;
+                            transition: 0.2s ease;
+                            position: relative;
+                            }
+
+                            .products .pro:hover {
+                            box-shadow: 10px 10px 54px rgba(70,62,221,0.25);
+                            }
+
+                            .products .pro .product-img {
+                            width: 100%;
+                            border-radius: 20px;
+                            }
+
+                            .products .pro .des {
+                            text-align: start;
+                            padding: 10px 0;
+                            }
+
+                            .products .pro .des span {
+                            color: #606063;
+                            font-size: 12px;
+                            }
+
+                            .products .pro .des h5 {
+                            color: #1a1a1a;
+                            font-size: 14px;
+                            }
+
+                            .products .pro .des .stars .star-img {
+                            width: 20px;
+                            }
+
+                            .products .pro .des h4 {
+                            padding-top: 7px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: $text-highlight-color;
+                            }
+
+                            .products .shopping-cart-img {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 5px;
+                            background-color: #e8f6ea;
+                            border: 1px solid #cce7d0;
+                            position: absolute;
+                            bottom: 20px;
+                            right: 10px;
+                            }
+
+                            .section-m1 {
+                            margin: 40px 0;
+                            }
+
+                            #banner {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            text-align: center;
+                            background-image: url(./img/banner1.jpg);
+                            width: 100%;
+                            height: 40vh;
+                            background-size: cover;
+                            background-position: center;
+                            }
+
+                            #banner h2 {
+                            color: #fff;
+                            font-size: 30px;
+                            padding: 10px 0;
+                            }
+
+                            #banner h2 span {
+                            color: #ef3636;
+                            }
+
+                            button.normal {
+                            font-size: 14px;
+                            font-weight: 600;
+                            padding: 15px 30px;
+                            color: #000;
+                            background-color: #fff;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            border: none;
+                            outline: none;
+                            transition: 0.2s;
+                            }
+
+                            #banner button:hover {
+                            background-color: $text-highlight-color;
+                            color: #fff;
+                            }
+
+                            #banners {
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            }
+
+                            #banners .banner-box {
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: center;
+                            flex-direction: column;
+                            background-image: url(./img/banner2.jpg);
+                            height: 50vh;
+                            background-size: cover;
+                            background-position: center;
+                            padding: 30px;
+                            width: 735px;
+                            }
+
+                            #banners .banner3 {
+                            width: 670px;
+                            background-image: url(./img/banner3.jpg);
+                            }
+
+                            #banners h2 {
+                            color: #fff;
+                            font-size: 28px;
+                            font-weight: 800;
+                            }
+
+                            #banners span {
+                            color: #fff;
+                            font-size: 14px;
+                            font-weight: 500;
+                            padding-bottom: 15px;
+                            }
+
+                            button.white {
+                            font-size: 13px;
+                            font-weight: 600;
+                            padding: 11px 18px;
+                            color: #fff;
+                            background-color: transparent;
+                            cursor: pointer;
+                            border: 1px solid #fff;
+                            outline: none;
+                            transition: 0.2s;
+                            }
+
+                            #banners .banner-box:hover button {
+                            background-color: $text-highlight-color;
+                            border: 1px solid $text-highlight-color;
+                            }
+
+                            #banner4 {
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            padding: 0 80px;
+                            }
+
+                            #banner4 .banner-box {
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: center;
+                            flex-direction: column;
+                            background-image: url(./img/banner4.jpg);
+                            height: 50vh;
+                            background-size: cover;
+                            background-position: center;
+                            padding: 20px;
+                            width: 670px;
+                            margin-bottom: 20px;
+                            }
+
+                            #banner4 .banner5 {
+                            width: 735px;
+                            background-image: url(./img/banner5.jpg);
+                            }
+
+                            #banner4 h2 {
+                            color: #fff;
+                            font-size: 22px;
+                            font-weight: 900;
+                            }
+
+                            #banner4 h3 {
+                            color: #d23731;
+                            font-size: 15px;
+                            font-weight: 800;
+                            }
+
+                            footer {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            }
+
+                            footer .column {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            margin-bottom: 20px;
+                            }
+
+                            footer .logo {
+                            margin-bottom: 30px;
+                            }
+
+                            footer h4 {
+                            font-size: 14px;
+                            padding-bottom: 20px;
+                            }
+
+                            footer p {
+                            font-size: 13px;
+                            margin: 0 0 8px 0;
+                            }
+
+                            footer a {
+                            font-size: 13px;
+                            text-decoration: none;
+                            color: #222;
+                            margin-bottom: 10px;
+                            }
+
+                            footer .install .row img {
+                            border: 1px solid $text-highlight-color;
+                            border-radius: 6px;
+                            }
+
+                            footer .install img {
+                            margin: 10px 0 15px 0;
+                            }
+
+                            footer a:hover {
+                            color: $text-highlight-color;
+                            }
+
+                            footer .copyright {
+                            width: 100%;
+                            text-align: center;
+                            }
+                        </xmp>
                     </div>
                     <div id="content_2-4" class="answer-box">
-
+                        <h3>HTML-код елемента:</h3>
+                        <xmp>
+                            <h2>Рекомендовані товари</h2>
+                            <p>Літня колекція | Новий сучасний дизайн</p>
+                        </xmp>
+                        <h3>CSS-код елемента:</h3>
+                        <xmp>
+                            h2 {
+                                font-size: 46px;
+                                line-height: 54px;
+                                color: $text-color;
+                            }
+                            p {
+                                font-size: 16px;
+                                color: #222;
+                                margin: 15px 0 20px 0;
+                            }
+                        </xmp>
+                        <h3>Вигляд елемента на сайті:</h3>
+                        <img src="./img/h1-p.png" alt="">
                     </div>
                     <div id="content_2-5" class="answer-box">
-
+                        <h3>HTML-код елемента:</h3>
+                        <xmp>
+                            <a class="logo" href="#">Йосип</a>
+                        </xmp>
+                        <h3>CSS-код елемента:</h3>
+                        <xmp>
+                            .logo {
+                                text-decoration: none;
+                                font-size: 36px;
+                                font-weight: 700;
+                                color: $text-color;
+                                text-shadow:
+                                0 0 5px $text-highlight-color,
+                                0 0 10px $text-highlight-color,
+                                2px 2px 5px rgba(0,0,0,0.8);
+                            }
+                        </xmp>
+                        <h3>Вигляд елемента на сайті:</h3>
+                        <img src="./img/logo.png" alt="">
                     </div>
                     <div id="content_2-6" class="answer-box">
-
+                        <h3>HTML-код елемента:</h3>
+                        <xmp>
+                            <ul id="navbar">
+                                <li><a class="active" href="index.html">Дім</a></li>
+                                <li><a href="shop.html">Магазин</a></li>
+                                <li><a href="blog.html">Блог</a></li>
+                                <li><a href="about.html">Про нас</a></li>
+                                <li><a href="contact.html">Контакти</a></li>
+                                <li><a href="cart.html"><img class="cart" src="./img/shopping-bag.png" alt="Кошик"></a></li>
+                            </ul>
+                        </xmp>
+                        <h3>CSS-код елемента:</h3>
+                        <xmp>
+                            #navbar {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        </xmp>
+                        <h3>Вигляд елемента на сайті:</h3>
+                        <img src="./img/navbar.png" alt="">
                     </div>
                     <div id="content_2-7" class="answer-box">
-
+                        <h2>Універсальний селектор:</h2>
+                        <h3>CSS-код елемента:</h3>
+                        <xmp>
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                                font-family: 'Open Sans', sans-serif;
+                            }
+                        </xmp>
+                        <h2>Дочірні селектори (Child Selectors):</h2>
+                        <h3>HTML-код елемента:</h3>
+                        <xmp>
+                            <div class="pro">
+                                <img class="product-img" src="./img/products/f1.jpg" alt="Футболка “Cartoon Astronaut”">
+                                <div class="des">
+                                    <span>adidas</span>
+                                    <h5>Футболка “Cartoon Astronaut”</h5>
+                                    <div class="stars">
+                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                        <img src="./img/star.png" alt="Зірка" class="star-img">
+                                    </div>
+                                    <h4>1980,02 грн</h4>
+                                </div>
+                                <a href="#"><img src="./img/shopping_cart.png" alt="Додати в кошик" class="shopping-cart-img"></a>
+                            </div>
+                        </xmp>
+                        <h3>CSS-код елемента:</h3>
+                        <xmp>
+                            .products .pro {
+                                width: 23%;
+                                min-width: 250px;
+                                padding: 10px 12px;
+                                border: 1px solid #cce7d0;
+                                border-radius: 25px;
+                                cursor: pointer;
+                                box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+                                margin: 15px 0;
+                                transition: 0.2s ease;
+                                position: relative;
+                            }
+                        </xmp>
+                        <h3>Вигляд елемента на сайті:</h3>
+                        <img src="./img/product.png" alt="">
                     </div>
                     <div id="content_2-8" class="answer-box">
+                        <xmp>
+                            .test {
+                            background-image: url("./img/cheese.jpg");
+                            background-repeat: no-repeat;
+                            background-position: left top;
+                            }
 
+                            p.dotted {border-style: dotted;}
+                            p.dashed {border-style: dashed;}
+                            p.solid {border-style: solid;}
+                            p.double {border-style: double;}
+                            p.groove {border-style: groove;}
+                            p.ridge {border-style: ridge;}
+                            p.inset {border-style: inset;}
+                            p.outset {border-style: outset;}
+                            p.none {border-style: none;}
+                            p.hidden {border-style: hidden;}
+                            p.mix {border-style: dotted dashed solid double;}
+
+                            /* невідвідуване посилання */
+                            a:link {
+                            color: red;
+                            }
+
+                            /* відвідуване посилання */
+                            a:visited {
+                            color: green;
+                            }
+
+                            /* посилання при наведенні миші */
+                            a:hover {
+                            color: hotpink;
+                            }
+
+                            /* активне посилання */
+                            a:active {
+                            color: blue;
+                            }
+
+                            table {
+                            border-collapse: collapse;
+                            width: 100%;
+                            }
+
+                            th, td {
+                            padding: 8px;
+                            text-align: left;
+                            border-bottom: 1px solid #ddd;
+                            }
+
+                            tr:hover {background-color: #f5f5f5;}
+
+                            div.anime {
+                            width: 100px;
+                            height: 100px;
+                            background-color: red;
+                            position: relative;
+                            animation-name: myAnimation;
+                            animation-duration: 4s;
+                            box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+                            }
+
+                            @keyframes myAnimation {
+                            0%   {background-color:red; left:0px; top:0px;}
+                            25%  {background-color:yellow; left:200px; top:0px;}
+                            50%  {background-color:blue; left:200px; top:200px;}
+                            75%  {background-color:green; left:0px; top:200px;}
+                            100% {background-color:red; left:0px; top:0px;}
+                            }
+
+                            .tooltip {
+                            position: relative;
+                            display: inline-block;
+                            border-bottom: 1px dotted black;
+                            cursor: pointer;
+                            }
+
+                            .tooltiptext {
+                            visibility: hidden;
+                            width: 120px;
+                            background-color: black;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 6px;
+                            padding: 5px 0;
+                            position: absolute;
+                            z-index: 1;
+                            top: -5px;
+                            left: 110%;
+                            }
+
+                            .tooltiptext::after {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            right: 100%;
+                            margin-top: -5px;
+                            border-width: 5px;
+                            border-style: solid;
+                            border-color: transparent black transparent transparent;
+                            }
+
+                            .tooltip:hover .tooltiptext {
+                            visibility: visible;
+                            }
+
+                            .button {
+                            background-color: white;
+                            border: none;
+                            color: black;
+                            padding: 16px 32px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 16px;
+                            margin: 4px 2px;
+                            transition-duration: 0.4s;
+                            cursor: pointer;
+                            }
+
+                            .button1 {border: 2px solid #04AA6D;}
+                            .button2 {border: 2px solid #008CBA;}
+                            .button3 {border: 2px solid #f44336;}
+                            .button4 {border: 2px solid #e7e7e7;}
+                            .button5 {border: 2px solid #555555;}
+
+                            .button1:hover {
+                            background-color: #04AA6D;
+                            color: white;
+                            }
+
+                            .button2:hover {
+                            background-color: #008CBA;
+                            color: white;
+                            }
+
+                            .button3:hover {
+                            background-color: #f44336;
+                            color: white;
+                            }
+
+                            .button4:hover {background-color: #e7e7e7;}
+
+                            .button5:hover {
+                            background-color: #555555;
+                            color: white;
+                            }
+
+                            .pagination {
+                            display: flex;
+                            justify-content: center;
+                            list-style: none;
+                            padding: 0;
+                            }
+
+                            .pagination li a {
+                            display: block;
+                            padding: 8px 12px;
+                            text-decoration: none;
+                            border: 1px solid gray;
+                            color: black;
+                            margin: 0 4px;
+                            border-radius: 5px;
+                            transition: background-color 0.3s;
+                            }
+
+                            .pagination li a.active {
+                            background-color: #4CAF50;
+                            color: white;
+                            }
+
+                            .pagination li a:hover:not(.active) {
+                            background-color: lightgray;
+                            }
+
+                            .dropbtn {
+                            background-color: #4CAF50;
+                            color: white;
+                            padding: 16px;
+                            font-size: 16px;
+                            border: none;
+                            cursor: pointer;
+                            }
+
+                            .dropdown {
+                            position: relative;
+                            }
+
+                            .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 200px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            }
+
+                            .dropdown-content a {
+                            color: black;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                            }
+
+                            .dropdown-content a:hover {
+                            background-color: #f1f1f1;
+                            }
+
+                            .dropdown:hover .dropdown-content {
+                            display: block;
+                            }
+
+                            .dropdown:hover .dropbtn {
+                            background-color: #3e8e41;
+                            }
+
+                            .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            }
+
+                            .dropdown:hover .dropdown-content {
+                            display: block;
+                            }
+
+                            .desc {
+                            padding: 15px;
+                            text-align: center;
+                            }
+
+                            div.trans {
+                            width: 100px;
+                            height: 100px;
+                            background: red;
+                            transition: width 2s;
+                            }
+
+                            #div1 {transition-timing-function: linear;}
+                            #div2 {transition-timing-function: ease;}
+                            #div3 {transition-timing-function: ease-in;}
+                            #div4 {transition-timing-function: ease-out;}
+                            #div5 {transition-timing-function: ease-in-out;}
+
+                            div.trans:hover {
+                            width: 300px;
+                            }
+
+                            p.test1 {
+                            width: 200px;
+                            border: 1px solid #000000;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: clip;
+                            }
+
+                            p.test2 {
+                            width: 200px;
+                            border: 1px solid #000000;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            }
+                        </xmp>
                     </div>
                     <div id="content_2-9" class="answer-box">
-
+                        <p><strong>Висновки:</strong></p>
+                        <p>
+                            У ході виконання практичної роботи було отримано практичні навички роботи
+                            з основними механізмами CSS. Було успішно опрацьовано використання різних
+                            типів селекторів: тегу, класу, ідентифікатора, а також складніших видів,
+                            таких як сусідні, дочірні, селектори атрибутів та універсальний селектор.
+                            Це дозволило зрозуміти принципи цільового застосування стилів до елементів
+                            HTML-документа.
+                        </p>
+                        <p>
+                            На практиці було закріплено вміння стильового оформлення текстових елементів,
+                            зокрема роботи з властивостями шрифтів, кольору, фону, контурів, а також оформлення
+                            таблиць і багаторівневих списків. Окрему увагу було приділено розділу
+                            "CSS Просунутий".
+                        </p>
                     </div>
                 </section>
             </div>

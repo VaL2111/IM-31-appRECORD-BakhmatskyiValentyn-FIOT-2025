@@ -109,17 +109,17 @@ body {
   display: block;
 }
 
-#content_1-1 .links {
+.links {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#content_1-1 .links a {
+.links a {
   transition: 0.3s;
 }
 
-#content_1-1 .links a:hover {
+.links a:hover {
   color: #f8c51e;
 }
 
@@ -128,6 +128,10 @@ body {
 }
 
 #content_1-5 img {
+  width: 100%;
+}
+
+#content_2-4 img {
   width: 100%;
 }
 
